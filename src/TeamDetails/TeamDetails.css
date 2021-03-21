@@ -1,57 +1,67 @@
 .teamDetailsInfo {
-    color: white;
-  
+  color: white;
 }
-.teamInfo{
-    margin-bottom: 100px;
+.teamInfo {
+  margin-bottom: 100px;
 }
-/* .teamInfo p{
-   
 
-}
+
 .teamDetailsInfo h4 {
+    font-size: 25px;
+    margin-bottom: 30px;
+    
 }
 .teamDetailsInfo p {
+    font-size: 15px;
+    font-weight: 500;
   
-} */
-.links{
-    font-size: 30px;
-    
-
 }
-a{
-    padding: 0 10px;
+.ic{
+    margin-right:5px ;
 }
-.web{
-    color: gray !important;
-
+.links {
+  font-size: 30px;
 }
-.youtube{
-    color: red;
+a {
+  padding: 0 10px;
+}
+.web {
+  color: gray !important;
+}
+.youtube {
+  color: red;
 }
 .teamDetailsBanner img {
-    height: 150px;
-    width: 100%;
-    border-radius: 25px;
+  height: 150px;
+  width: 100%;
+  border-radius: 25px;
 }
 #teamDetails {
+    background-color: rgb(17, 5, 59) !important;
   align-items: center;
   height: 300px;
-  border-radius: 5px;
+  border-radius: 25px;
   margin-top: 50px;
   margin-bottom: 20px;
   padding: 20px;
   justify-content: space-between;
 }
-.description{
-    margin-bottom: 30px;
-    line-height: 1.5;
+.description {
+  margin-bottom: 30px;
+  line-height: 1.5;
 }
 @media (max-width: 576px) {
-    #teamDetails {
-        height: 600px;
-        align-items: center;
-        text-align: center;
-      }
-    
+  #teamDetails {
+    height: 600px;
+    align-items: center;
+    text-align: center;
   }
+}
+@media (max-width: 768px) {
+    .teamDetailsInfo h4 {
+        font-size: 20px;
+        
+    }
+  }
+  
+

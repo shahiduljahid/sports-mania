@@ -15,7 +15,7 @@ const Home = () => {
   }, []);
 
   const soccerLeauge = leauge.filter((leauge) => leauge.strSport === "Soccer");
-  const Leauge = soccerLeauge.slice(0, 30);
+  const Leauge = soccerLeauge.slice(0, 50);
 
   return (
     <div>

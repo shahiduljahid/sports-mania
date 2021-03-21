@@ -5,21 +5,18 @@ import NoMatch from "./NoMatch/NoMatch";
 import TeamDetails from "./TeamDetails/TeamDetails";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
-
 function App() {
   return (
-    <div >
+    <div>
       <Router>
         <Switch>
           <Route exact="true" path="/">
             <Home></Home>
           </Route>
           <Route path="/home">
-           
             <Home></Home>
           </Route>
           <Route path="/team/:leaugeId">
-         
             <TeamDetails></TeamDetails>
           </Route>
           <Route path="*">
