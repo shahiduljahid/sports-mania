@@ -3,7 +3,7 @@ import { useParams } from "react-router";
 import Header from "../Header/Header";
 import "./TeamDetails.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFlag, faFutbol, faGlobe, faLocationArrow, faMapMarkedAlt, faMapMarkerAlt, faMars } from "@fortawesome/free-solid-svg-icons";
+import { faFlag, faFutbol, faGlobe,  faMapMarkerAlt, faMars } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 import { faTwitterSquare, faYoutube } from "@fortawesome/free-brands-svg-icons";
 
