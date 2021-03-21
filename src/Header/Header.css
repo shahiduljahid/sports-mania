@@ -63,7 +63,7 @@ header img {
 
 @media (max-width: 768px) {
   .banner-details h1 {
-    left: 15%;
+    left: 10%;
     font-weight: 800;
     font-size: 40px;
   }
@@ -73,7 +73,7 @@ header img {
 }
 @media (max-width: 550px) {
   .banner-details h1 {
-    left: 20%;
+    left:15%;
     font-weight: 800;
     font-size: 25px;
   }
