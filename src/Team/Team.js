@@ -7,7 +7,7 @@ import "./Team.css";
 const Team = (props) => {
   const { idLeague, strLeague } = props.leauge;
   const [team, setTeam] = useState([]);
-  const { strLogo } = team;
+  const {strBadge } = team;
 
   useEffect(() => {
     const url = `https://www.thesportsdb.com/api/v1/json/1/lookupleague.php?id=${idLeague}`;
@@ -18,8 +18,8 @@ const Team = (props) => {
   }, [idLeague]);
 
   return (
-    <div>
-      <img src={strLogo} alt="logo" />
+    <div className="team">
+      <img src={strBadge} alt="logo" />
 
       <p>{strLeague}</p>
      

@@ -1,0 +1,57 @@
+.teamDetailsInfo {
+    color: white;
+  
+}
+.teamInfo{
+    margin-bottom: 100px;
+}
+/* .teamInfo p{
+   
+
+}
+.teamDetailsInfo h4 {
+}
+.teamDetailsInfo p {
+  
+} */
+.links{
+    font-size: 30px;
+    
+
+}
+a{
+    padding: 0 10px;
+}
+.web{
+    color: gray !important;
+
+}
+.youtube{
+    color: red;
+}
+.teamDetailsBanner img {
+    height: 150px;
+    width: 100%;
+    border-radius: 25px;
+}
+#teamDetails {
+  align-items: center;
+  height: 300px;
+  border-radius: 5px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  padding: 20px;
+  justify-content: space-between;
+}
+.description{
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+@media (max-width: 576px) {
+    #teamDetails {
+        height: 600px;
+        align-items: center;
+        text-align: center;
+      }
+    
+  }
